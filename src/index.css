@@ -31,6 +31,17 @@ body {
 	min-width: 320px;
 	min-height: 100vh;
 }
+.wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	width: 100vw;
+}
+
+#author {
+	text-align: right;
+}
 
 h1 {
 	font-size: 3.2em;
@@ -50,10 +61,6 @@ button {
 }
 button:hover {
 	border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-	outline: 4px auto -webkit-focus-ring-color;
 }
 
 @media (prefers-color-scheme: light) {
